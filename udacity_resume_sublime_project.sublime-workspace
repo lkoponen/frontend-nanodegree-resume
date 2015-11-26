@@ -1,0 +1,449 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"funThoughts"
+			],
+			[
+				"awes",
+				"awesomeThoughts"
+			],
+			[
+				"expandVersion",
+				"expandVersion"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"bo",
+				"border-box"
+			],
+			[
+				"outlookQA",
+				"outlookQA"
+			],
+			[
+				"toggleArchiveOutlookQA",
+				"toggleArchiveOutlookQA"
+			],
+			[
+				"toggle",
+				"toggleArchiveButtonOWA"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"st",
+				"strong	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5026,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/resumeBuilder.js",
+			"settings":
+			{
+				"buffer_size": 4330,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/helper.js",
+			"settings":
+			{
+				"buffer_size": 8582,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Lkoponen/frontend-nanodegree-resume/js/helper.js",
+		"/C/Users/Lkoponen/AppData/Local/Programs/Git/ReleaseNotes.html",
+		"/C/Users/Lkoponen/AppData/Local/Programs/Git/mingw32/share/doc/git-doc/git-diff.html",
+		"/C/Users/Lkoponen/AppData/Local/Programs/Git/mingw32/share/doc/git-doc/git-config.html",
+		"/C/Users/Lkoponen/Desktop/owa_mail_page.html",
+		"/C/Users/Lkoponen/Desktop/outlook_site_sublime.html",
+		"/C/Users/Lkoponen/AppData/Local/Temp/wz0e17/Responsive_Template1.html",
+		"/C/IWTemp/carlsbad/cache/default/main/go_intranet_redesign/WORKAREA/its/programs_depts/its/tech_projects/1450_c.html",
+		"/C/Users/Lkoponen/AppData/Local/Temporary Internet Files/Temporary Internet Files/Content.Outlook/P7OMBS91/Express-Parcel-Delivery-Failure-Form.html",
+		"/C/Users/Lkoponen/Desktop/Untitled-1.html",
+		"/C/Users/Lkoponen/Desktop/Udacity/portfolio/framework/portfolio.html",
+		"/C/Users/Lkoponen/Desktop/Udacity/portfolio/framework/css/main.css",
+		"/C/Users/Lkoponen/Desktop/elearning_06_2015.html",
+		"/C/Users/Lkoponen/AppData/Local/Temporary Internet Files/Temporary Internet Files/Content.Outlook/P7OMBS91/elearning_06_2015.html",
+		"/C/Users/Lkoponen/AppData/Local/Temp/wz14d1/framework/test.html",
+		"/C/Users/Lkoponen/Desktop/Udacity/portfolio/toplist/style.css",
+		"/C/Users/Lkoponen/Desktop/Udacity/portfolio/toplist/index.html",
+		"/C/Users/Lkoponen/Desktop/Udacity/Hello World/index.html",
+		"/C/Users/lkoponen/Desktop/simple_file.rb",
+		"/C/Users/Lkoponen/Desktop/Udacity/css/style.css",
+		"/C/Users/Lkoponen/Desktop/Udacity/index.html",
+		"/C/Users/lkoponen/Desktop/ues_12022013.html",
+		"/S/CommunityService/HF&T Drive/F&T 2013/GO/HFT_drive_wrapup_blurb.html",
+		"/C/Users/lkoponen/Desktop/kpi_project_quality_table.html",
+		"/S/CommunityService/HF&T Drive/F&T 2013/GO/HFT_drive_blurb_for_GO_home.html",
+		"/C/Users/lkoponen/Desktop/GO/Community Service/cs-food-and-toy-drive-blurb.html",
+		"/C/Users/lkoponen/Desktop/Roboform ITS software page.htm",
+		"/C/Users/lkoponen/Desktop/lynda.html",
+		"/C/Users/lkoponen/Desktop/gw_sw.html",
+		"/C/Users/lkoponen/Desktop/day_after_UES.html",
+		"/G/BUSINESS UNITS/DESKTOP TECHNOLOGY/Training/Projects/e-learningFY12_13/e-mail/03_13_lynda.html",
+		"/G/BUSINESS UNITS/DESKTOP TECHNOLOGY/Training/Projects/e-learningFY12_13/lynda-go-promo-playlists.html",
+		"/G/BUSINESS UNITS/DESKTOP TECHNOLOGY/Training/Projects/GW2012/GW_code_updates/1289.html",
+		"/C/Users/lkoponen/Desktop/GW_code_updates/1286.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"TEAMS",
+			"[+]",
+			"sectionhead",
+			"remote Desktop Connection",
+			"href=\"",
+			".pdf\"",
+			"/",
+			" ",
+			"m",
+			" ",
+			"4",
+			"3",
+			"2",
+			"1",
+			"7",
+			"8",
+			"9",
+			"10",
+			"11",
+			"12",
+			"2",
+			"3",
+			"4",
+			"/",
+			"/2014",
+			"/2015",
+			"am",
+			"PM",
+			"ios 7",
+			"ios7",
+			"</b>",
+			"<b>",
+			"fre",
+			"/a>",
+			"<a",
+			"still_on_gw",
+			"p.m.",
+			"a.m.",
+			"10:00",
+			"Web App",
+			"Outlook Web App",
+			"documentList",
+			"new",
+			"')\"",
+			"javascript:openP('",
+			"')\"",
+			"javascript:openP('",
+			"href=\"/",
+			"')\"",
+			"javascript:openP('",
+			"msds",
+			"lyris",
+			"Tuesday",
+			"111714",
+			"width=\"",
+			"height=\"125\"",
+			"valign=\"top\"",
+			"powerpoint",
+			"power",
+			" \"/",
+			"id=\"wows",
+			"data1/images/",
+			"contract ",
+			"</tr>",
+			"</tr><tr>",
+			"http://go.getty.edu",
+			"javascript:openP('",
+			"')\"",
+			"javascript:openP('",
+			"k.i",
+			"at des",
+			"ess/",
+			"email",
+			"login",
+			"javasc",
+			"')\"",
+			"javascript:openP('",
+			"pc laptops are",
+			"groupWise Mes",
+			"enabled",
+			"internet-enabled",
+			"internet-en",
+			"employee self service",
+			"certain",
+			"web ba",
+			"non-g",
+			"non g",
+			"http://wiki.getty.edu",
+			"voc",
+			"programs_depts/its/training_services/tips/pdfs/",
+			"<td width=\"1\"><div><img src=\"/programs_depts/its/training_services/tech_performance/images/bluepix.jpg\" alt=\"target\" width=\"1\" /></div>",
+			"45",
+			"25",
+			"51",
+			"busi",
+			"last",
+			"wednes",
+			"wed",
+			"macintosh",
+			"macinstoh",
+			"macintosh",
+			"fin",
+			"colo",
+			"offi",
+			"new",
+			"</a>",
+			"<a",
+			"class=\"bookmark",
+			"</div></div>",
+			"<div align=\"center\"><div align=\"center\">",
+			"<td class=\"tablecellborder\">Mac Only</td>",
+			"<td class=\"tablecellborder\">PC Only</td>",
+			"<td class=\"tablecellborder\">PC & Mac</td>",
+			"macintosh",
+			"315",
+			"320",
+			"300",
+			"203",
+			"po entr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4514,
+								4514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2263.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/resumeBuilder.js",
+					"settings":
+					{
+						"buffer_size": 4330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								941,
+								941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "js/helper.js",
+					"settings":
+					{
+						"buffer_size": 8582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
