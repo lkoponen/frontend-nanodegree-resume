@@ -100,43 +100,47 @@ var projects = {
 	]
 }
 
-//format name and role in header and prepend to header
-var formattedHeaderRole = HTMLheaderRole.replace("%data%", bio.role);
-$("#header").prepend(formattedHeaderRole);
+bio.display = function() {
+	//format name and role in header and prepend to header
+	var formattedHeaderRole = HTMLheaderRole.replace("%data%", bio.role);
+	$("#header").prepend(formattedHeaderRole);
 
-var formattedHeaderName = HTMLheaderName.replace("%data%", bio.name);
-$("#header").prepend(formattedHeaderName);
+	var formattedHeaderName = HTMLheaderName.replace("%data%", bio.name);
+	$("#header").prepend(formattedHeaderName);
 
-//format contact information and append to header
-var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
-$("#topContacts").append(formattedMobile);
+	//format contact information and append to header
+	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+	$("#topContacts").append(formattedMobile);
 
-var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-$("#topContacts").append(formattedEmail);
+	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
+	$("#topContacts").append(formattedEmail);
 
-var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-$("#topContacts").append(formattedGithub);
+	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+	$("#topContacts").append(formattedGithub);
 
-var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-$("#topContacts").append(formattedLocation);
+	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+	$("#topContacts").append(formattedLocation);
 
-//format and append bio picture to header
-var formattedBioPic = HTMLbioPic.replace("%data%", bio.pictureUrl);
-$("#header").append(formattedBioPic);
+	//format and append bio picture to header
+	var formattedBioPic = HTMLbioPic.replace("%data%", bio.pictureUrl);
+	$("#header").append(formattedBioPic);
 
-//format and append welcome message to header
-var formattedWelcomeMessage = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
-$("#header").append(formattedWelcomeMessage);
+	//format and append welcome message to header
+	var formattedWelcomeMessage = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
+	$("#header").append(formattedWelcomeMessage);
 
-//format skills and append to div with id skills
-if (bio.skills.length > 0) {
-	$("#header").append(HTMLskillsStart);
+	//format skills and append to div with id skills
+	if (bio.skills.length > 0) {
+		$("#header").append(HTMLskillsStart);
 
-	for (skills in bio.skills) {
-		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skills]);
-		$("#skills").append(formattedSkill);
+		for (skills in bio.skills) {
+			var formattedSkill = HTMLskills.replace("%data%", bio.skills[skills]);
+			$("#skills").append(formattedSkill);
+		}
 	}
 }
+
+bio.display();
 
 //format jobs and append to div with id workExperience
 work.display = function() {
