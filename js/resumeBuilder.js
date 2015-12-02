@@ -3,101 +3,88 @@ This is empty on purpose! Your code to build the resume will go here.
  */
 //Create objects which contain data for page
 var bio = {
-	"name" : "Lili Koponen",
-	"role" : "Front-end Web Developer",
-	"contacts" : {
-		"mobile" : "916-284-6352",
-		"email" : "ljkoponen@gmail.com",
-		"github" : "https://github.com/lkoponen",
-		"location" : "Los Angeles, CA"
+	"name": "Lili Koponen",
+	"role": "Front-end Web Developer",
+	"contacts": {
+		"mobile": "916-284-6352",
+		"email": "ljkoponen@gmail.com",
+		"github": "https://github.com/lkoponen",
+		"location": "Los Angeles, CA"
 	},
-	"pictureUrl" : "images/profile.jpg",
-	"welcomeMessage" : "Hello! Welcome to my resume!",
-	"skills" : [
+	"pictureUrl": "images/profile.jpg",
+	"welcomeMessage": "Hello! Welcome to my resume!",
+	"skills": [
 		"JavaScript", "HTML", "CSS", "jQuery"
 	]
 };
 
 var work = {
-	"jobs" : [
-		{
-			"employer" : "The J. Paul Getty Trust",
-			"title" : "Associate IT Education Specialist",
-			"location" : "Los Angeles, CA",
-			"dates" : "May 2013 - Present",
-			"description" : "Develop curriculum for and teach classes for new employee technical onboarding and application upgrades. Write and edit technical documentation. Maintain internal staff website. Script, film, and edit training videos."			
-		},
-		{
-			"employer" : "Lingerie Fashion Shop",
-			"title" : "Web Producer",
-			"location" : "Los Angeles, CA",
-			"dates" : "April 2012 - April 2013",
-			"description" : "Manage social media presence for store. Update and manage website through Volusion CMS. Photograph and edit new product images. Deliver online customer service."
-		},
-		{
-			"employer" : "Le Marche Gourmet",
-			"title" : "Web Intern",
-			"location" : "Sacramento, CA",
-			"dates" : "February 2011 - September 2011",
-			"description" : "Transfer website contents from Volusion CMS to Shopify CMS. Update and maintain website. Design layout and organization of new site. Copywriting."
-		}
-	]
+	"jobs": [{
+		"employer": "The J. Paul Getty Trust",
+		"title": "Associate IT Education Specialist",
+		"location": "Los Angeles, CA",
+		"dates": "May 2013 - Present",
+		"description": "Develop curriculum for and teach classes for new employee technical onboarding and application upgrades. Write and edit technical documentation. Maintain internal staff website. Script, film, and edit training videos."
+	}, {
+		"employer": "Lingerie Fashion Shop",
+		"title": "Web Producer",
+		"location": "Los Angeles, CA",
+		"dates": "April 2012 - April 2013",
+		"description": "Manage social media presence for store. Update and manage website through Volusion CMS. Photograph and edit new product images. Deliver online customer service."
+	}, {
+		"employer": "Le Marche Gourmet",
+		"title": "Web Intern",
+		"location": "Sacramento, CA",
+		"dates": "February 2011 - September 2011",
+		"description": "Transfer website contents from Volusion CMS to Shopify CMS. Update and maintain website. Design layout and organization of new site. Copywriting."
+	}]
 };
 
 var education = {
-	"schools" : [
-		{
-			"name" : "UCLA",
-			"dates" : "2005-2010",
-			"degree" : "BA",
-			"major" : "Political Science",
-			"location" : "Los Angeles, CA",
-			"url" : "http://www.ucla.edu/"
-		},
-		{
-			"name" : "Udacity",
-			"dates" : "2015",
-			"degree" : "Nanodegree",
-			"major" : "Front-end Development",
-			"location" : "Los Angeles, CA",
-			"url" : "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
-		}
-	],
-	"onlineCourse" : [
-		{
-			"title" : "Outlook 2013: Efficient Email Management",
-			"school" : "lynda.com",
-			"dates" : "April 27, 2015",
-			"url" : "http://www.lynda.com/Outlook-tutorials/Outlook-2013-Efficient-Email-Management/179051-2.html"
-		},
-		{
-			"title" : "Web Design Fundamentals (2010)",
-			"school" : "lynda.com",
-			"dates" : "July 27, 2013",
-			"url" : "http://www.lynda.com/Web-Design-tutorials/Web-Design-Fundamentals/177837-2.html"
-		}
-	]
+	"schools": [{
+		"name": "UCLA",
+		"dates": "2005-2010",
+		"degree": "BA",
+		"major": "Political Science",
+		"location": "Los Angeles, CA",
+		"url": "http://www.ucla.edu/"
+	}, {
+		"name": "Udacity",
+		"dates": "2015",
+		"degree": "Nanodegree",
+		"major": "Front-end Development",
+		"location": "Los Angeles, CA",
+		"url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
+	}],
+	"onlineCourse": [{
+		"title": "Outlook 2013: Efficient Email Management",
+		"school": "lynda.com",
+		"dates": "April 27, 2015",
+		"url": "http://www.lynda.com/Outlook-tutorials/Outlook-2013-Efficient-Email-Management/179051-2.html"
+	}, {
+		"title": "Web Design Fundamentals (2010)",
+		"school": "lynda.com",
+		"dates": "July 27, 2013",
+		"url": "http://www.lynda.com/Web-Design-tutorials/Web-Design-Fundamentals/177837-2.html"
+	}]
 };
 
 var projects = {
-	"projects" : [
-		{
-			"title" : "Cheree Honey Model Page",
-			"dates" : "October 2015",
-			"description" : "Web site which displays HTML and CSS experience. Also showcases use of Bootstrap framework, including using modals.",
-			"images" : [
-				"images/model_site_1.jpg", "images/model_site_2.jpg"
-			]
-		},
-				{
-			"title" : "Portfolio Web Page",
-			"dates" : "October 2015",
-			"description" : "Simple web site which displays HTML and CSS experience. Also showcases use of Bootstrap framework.",
-			"images" : [
-				"images/portfolio_site_1.jpg"
-			]
-		}
-	]
+	"projects": [{
+		"title": "Cheree Honey Model Page",
+		"dates": "October 2015",
+		"description": "Web site which displays HTML and CSS experience. Also showcases use of Bootstrap framework, including using modals.",
+		"images": [
+			"images/model_site_1.jpg", "images/model_site_2.jpg"
+		]
+	}, {
+		"title": "Portfolio Web Page",
+		"dates": "October 2015",
+		"description": "Simple web site which displays HTML and CSS experience. Also showcases use of Bootstrap framework.",
+		"images": [
+			"images/portfolio_site_1.jpg"
+		]
+	}]
 };
 
 bio.display = function() {
@@ -132,12 +119,12 @@ bio.display = function() {
 	//format skills and append to div with id skills
 	if (bio.skills.length > 0) {
 		$("#header").append(HTMLskillsStart);
-		
+
 		for (var skills in bio.skills) {
-    	if (bio.skills.hasOwnProperty(skills)) {
+			if (bio.skills.hasOwnProperty(skills)) {
 				var formattedSkill = HTMLskills.replace("%data%", bio.skills[skills]);
 				$("#skills").append(formattedSkill);
-      }
+			}
 		}
 	}
 };
@@ -186,7 +173,7 @@ projects.display = function() {
 			$(".project-entry:last").append(formattedProjectDescription);
 
 			//forEach loop which will format and append project images
-			projects.projects[newProject].images.forEach(function (val) {
+			projects.projects[newProject].images.forEach(function(val) {
 				var formattedProjectImage = HTMLprojectImage.replace("%data%", val);
 				$(".project-entry:last").append(formattedProjectImage);
 			});
@@ -206,15 +193,15 @@ education.display = function() {
 			//format and append school name and degree
 			var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[newSchool].name);
 			var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[newSchool].degree);
-			$(".education-entry:last").append(formattedSchoolName + formattedSchoolDegree);	
+			$(".education-entry:last").append(formattedSchoolName + formattedSchoolDegree);
 
 			//format and append school dates
 			var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[newSchool].dates);
-			$(".education-entry:last").append(formattedSchoolDates);	
+			$(".education-entry:last").append(formattedSchoolDates);
 
 			//format and append school location
 			var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schools[newSchool].location);
-			$(".education-entry:last").append(formattedSchoolLocation);	
+			$(".education-entry:last").append(formattedSchoolLocation);
 
 			//format and append school major
 			var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", education.schools[newSchool].major);

@@ -15,12 +15,12 @@ var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#">%data%';
-var HTMLworkTitle =  ' - %data%</a>';
+var HTMLworkTitle = ' - %data%</a>';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p>%data%</p><br>';
 
-var HTMLprojectStart = '<br><div class="project-entry"></div>';
+var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a href="indexproj1.html">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
@@ -48,7 +48,7 @@ It hooks up code to the Internationalize button I'm appending.
 */
 $(document).ready(function() {
   $('button').click(function() {
-    var iName = inName($("#name").text()) || function(){};
+    var iName = inName($("#name").text()) || function() {};
     $('#name').html(iName);
   });
 });
@@ -56,13 +56,12 @@ $(document).ready(function() {
 
 //The next few lines about clicks are for the Collecting Click Locations quiz in Lesson 2.
 clickLocations = [];
-function logClicks(x,y) {
-  clickLocations.push(
-    {
-      x: x,
-      y: y
-    }
-  );
+
+function logClicks(x, y) {
+  clickLocations.push({
+    x: x,
+    y: y
+  });
   console.log('x location: ' + x + '; y location: ' + y);
 }
 $(document).click(function(loc) {
@@ -76,7 +75,7 @@ Custom Google Map for the website.
 See the documentation below for more details.
 https://developers.google.com/maps/documentation/javascript/reference
 */
-var map;    // declares a global map variable
+var map; // declares a global map variable
 
 
 /*
@@ -110,13 +109,17 @@ function initializeMap() {
     // iterates through school locations and appends each location to
     // the locations array
     for (var school in education.schools) {
-      locations.push(education.schools[school].location);
+      if (education.schools.hasOwnProperty(school)) {
+        locations.push(education.schools[school].location);
+      }
     }
 
     // iterates through work locations and appends each location to
     // the locations array
     for (var job in work.jobs) {
-      locations.push(work.jobs[job].location);
+      if (work.jobs.hasOwnProperty(job)) {
+        locations.push(work.jobs[job].location);
+      }
     }
 
     return locations;
@@ -130,10 +133,10 @@ function initializeMap() {
   function createMapMarker(placeData) {
 
     // The next lines save location data from the search result object to local variables
-    var lat = placeData.geometry.location.lat();  // latitude from the place service
-    var lon = placeData.geometry.location.lng();  // longitude from the place service
-    var name = placeData.formatted_address;   // name of the place from the place service
-    var bounds = window.mapBounds;            // current boundaries of the map window
+    var lat = placeData.geometry.location.lat(); // latitude from the place service
+    var lon = placeData.geometry.location.lng(); // longitude from the place service
+    var name = placeData.formatted_address; // name of the place from the place service
+    var bounds = window.mapBounds; // current boundaries of the map window
 
     // marker is an object with additional data about the pin for a single location
     var marker = new google.maps.Marker({
@@ -145,18 +148,18 @@ function initializeMap() {
     // infoWindows are the little helper windows that open when you click
     // or hover over a pin on a map. They usually contain more information
     // about a location.
-  
-  var contentString = '<div id="content">'+
-        '<div id="siteNotice">'+
-        '</div>'+
-        '<h1 id="firstHeading" class="firstHeading">'+ name + '</h1>'+
-        '<div id="bodyContent">'+
-        '<p><b>'+ name + '</b>, is a beautiful city in my home state. <br><br>We have lots of sunshine, but please send water. Drought is no joke!</p>'+
-        '<p><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=site%3Awikipedia.com%20' + name +'">'+
-        'Learn more about ' + name + ' with Google!</a> '+
-        '.</p>'+
-        '</div>'+
-        '</div>';
+
+    var contentString = '<div id="content">' +
+      '<div id="siteNotice">' +
+      '</div>' +
+      '<h1 id="firstHeading" class="firstHeading">' + name + '</h1>' +
+      '<div id="bodyContent">' +
+      '<p><b>' + name + '</b>, is a beautiful city in my home state. <br><br>We have lots of sunshine, but please send water. Drought is no joke!</p>' +
+      '<p><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=site%3Awikipedia.com%20' + name + '">' +
+      'Learn more about ' + name + ' with Google!</a> ' +
+      '.</p>' +
+      '</div>' +
+      '</div>';
 
 
     var infoWindow = new google.maps.InfoWindow({
@@ -198,15 +201,16 @@ function initializeMap() {
 
     // Iterates through the array of locations, creates a search object for each location
     for (var place in locations) {
+      if (locations.hasOwnProperty(place)) {
+        // the search request object
+        var request = {
+          query: locations[place]
+        };
 
-      // the search request object
-      var request = {
-        query: locations[place]
-      };
-
-      // Actually searches the Google Maps API for location data and runs the callback
-      // function with the search results after each search.
-      service.textSearch(request, callback);
+        // Actually searches the Google Maps API for location data and runs the callback
+        // function with the search results after each search.
+        service.textSearch(request, callback);
+      }
     }
   }
 
@@ -230,5 +234,5 @@ window.addEventListener('load', initializeMap);
 // and adjust map bounds
 window.addEventListener('resize', function(e) {
   // Make sure the map bounds get updated on page resize
-map.fitBounds(mapBounds);
+  map.fitBounds(mapBounds);
 });
