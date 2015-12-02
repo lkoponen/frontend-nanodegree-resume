@@ -1,6 +1,4 @@
-var HTMLheaderName = '<h1 id="name">%data%</h1>';
-var HTMLheaderRole = '<span class="white-text">%data%</span><hr/>';
-
+var HTMLheaderNameAndRole = '<nav class="navbar navbar-default navbar-fixed-top"><div class="container"><h1 id="name">%data%</h1><span class="welcome-message">%role%</span><hr/></div></nav>';
 var HTMLcontactGeneric = '<li class="flex-item"><span class="razzle-dazzle-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="razzle-dazzle-text">mobile</span><span class="white-text">%data%</span></li>';
 var HTMLemail = '<li class="flex-item"><span class="razzle-dazzle-text">email</span><span class="white-text">%data%</span></li>';

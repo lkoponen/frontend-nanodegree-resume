@@ -25,6 +25,10 @@ h6 {
   padding: 0 5%;
 }
 
+body {
+  padding-top: 70px;
+}
+
 h1 {
   font-size: 40px;
   color: #B2CB7A;

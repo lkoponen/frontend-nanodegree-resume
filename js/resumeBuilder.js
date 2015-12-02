@@ -102,11 +102,11 @@ var projects = {
 
 bio.display = function() {
 	//format name and role in header and prepend to header
-	var formattedHeaderRole = HTMLheaderRole.replace("%data%", bio.role);
+	var formattedHeaderRole = HTMLheaderNameAndRole.replace("%role%", bio.role).replace("%data%", bio.name);
 	$("#header").prepend(formattedHeaderRole);
 
-	var formattedHeaderName = HTMLheaderName.replace("%data%", bio.name);
-	$("#header").prepend(formattedHeaderName);
+	// var formattedHeaderName = HTMLheaderName.replace("%data%", bio.name);
+	// $("#header").prepend(formattedHeaderName);
 
 	//format contact information and append to header
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
