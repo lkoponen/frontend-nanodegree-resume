@@ -27,7 +27,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #B2CB7A;
   line-height: 48px;
   display: inline;
 }
@@ -38,6 +38,7 @@ h2 {
   color: #999;
   line-height: 29px;
   padding: 10px;
+  color: #FFC47F;
 }
 
 h3 {
@@ -87,7 +88,7 @@ p {
 }
 
 a {
-  color: #1199c3;
+  color: #B2CB7A;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -96,21 +97,22 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #FFC47F;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
-  display: none;
+  color: #B2CB7A;
+/*  display: none;
+*/}
+
+.footer {
+  background-color: #4a4a4a;
+  color: #FFC47F;
 }
 
-.orange {
-  background-color: #f5ae23;
-}
-
-.orange-text {
-  color: #f5ae23;
+.razzle-dazzle-text {
+  color: #B2CB7A;
 }
 
 .white-text {
@@ -118,14 +120,14 @@ a {
   color: #fff;
 }
 
-.gray {
-  background-color: #f3f3f3;
+.banding-1 {
+  background-color: #F2EEEA;
   padding-bottom: 10px;
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4a4a4a;
+.end-page {
+  background-color: #B2CB7A;
 }
 
 /* TODO: Replace with image later */
@@ -212,4 +214,12 @@ span {
   .biopic {
     display: block;
   }
+}
+
+#onlineCourse {
+  color: #86A09D;
+}
+
+#skills {
+  flex-direction: column;
 }
