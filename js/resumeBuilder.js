@@ -154,8 +154,13 @@ $("#topContacts").append(formattedGithub);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#topContacts").append(formattedLocation);
 
-//format and append bio picture to page
+//format and append bio picture to header
+var formattedBioPic = HTMLbioPic.replace("%data%", bio.pictureUrl);
+$("#header").append(formattedBioPic);
 
+//format and append welcome message to header
+var formattedWelcomeMessage = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
+$("#header").append(formattedWelcomeMessage);
 
 //format skills and append to div with id skills
 if (bio.skills.length > 0) {
