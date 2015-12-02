@@ -32,7 +32,7 @@ var bio = {
 	"contacts" : {
 		"mobile" : "916-284-6352",
 		"email" : "ljkoponen@gmail.com",
-		"github" : "lkoponen",
+		"github" : "https://github.com/lkoponen",
 		"location" : "Los Angeles, CA"
 	},
 	"pictureUrl" : "images/profile.jpg",
@@ -134,9 +134,30 @@ var projects = {
 // $("#main").append(work["currentPosition"]);
 // $("#main").append(education.name);
 
-var formattedHeaderName = HTMLheaderName.replace("%data%", bio.name);
-$("#header").append(formattedHeaderName);
+//format name and role in header and prepend to header
+var formattedHeaderRole = HTMLheaderRole.replace("%data%", bio.role);
+$("#header").prepend(formattedHeaderRole);
 
+var formattedHeaderName = HTMLheaderName.replace("%data%", bio.name);
+$("#header").prepend(formattedHeaderName);
+
+//format contact information and append to header
+var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+$("#topContacts").append(formattedMobile);
+
+var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
+$("#topContacts").append(formattedEmail);
+
+var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+$("#topContacts").append(formattedGithub);
+
+var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+$("#topContacts").append(formattedLocation);
+
+//format and append bio picture to page
+
+
+//format skills and append to div with id skills
 if (bio.skills.length > 0) {
 	$("#header").append(HTMLskillsStart);
 
@@ -149,6 +170,7 @@ if (bio.skills.length > 0) {
 	formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
 	$("#skills").append(formattedSkill);
 }
+
 
 function displayWork() {
 	for (professions in work.jobs) {

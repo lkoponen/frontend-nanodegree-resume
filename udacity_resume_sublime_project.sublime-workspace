@@ -51,7 +51,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5026,
+				"buffer_size": 5017,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "js/resumeBuilder.js",
 			"settings":
 			{
-				"buffer_size": 4330,
+				"buffer_size": 7286,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "js/helper.js",
 			"settings":
 			{
-				"buffer_size": 8582,
+				"buffer_size": 7750,
 				"line_ending": "Windows"
 			}
 		}
@@ -96,6 +96,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Lkoponen/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Lkoponen/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Lkoponen/frontend-nanodegree-resume/js/helper.js",
 		"/C/Users/Lkoponen/AppData/Local/Programs/Git/ReleaseNotes.html",
 		"/C/Users/Lkoponen/AppData/Local/Programs/Git/mingw32/share/doc/git-doc/git-diff.html",
@@ -137,9 +139,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 96.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -147,6 +150,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"JavaScript",
+			"this",
+			"Also",
+			"head",
 			"TEAMS",
 			"[+]",
 			"sectionhead",
@@ -276,14 +283,14 @@
 		],
 		"reverse": false,
 		"show_context": true,
-		"use_buffer2": true,
+		"use_buffer2": false,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -291,15 +298,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5026,
+						"buffer_size": 5017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4514,
-								4514
+								2788,
+								2788
 							]
 						],
 						"settings":
@@ -309,7 +316,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2263.0,
+						"translation.y": 2118.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -319,15 +326,15 @@
 					"file": "js/resumeBuilder.js",
 					"settings":
 					{
-						"buffer_size": 4330,
+						"buffer_size": 7286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								941,
-								941
+								1903,
+								1903
 							]
 						],
 						"settings":
@@ -337,7 +344,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 951.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -353,15 +360,15 @@
 					"file": "js/helper.js",
 					"settings":
 					{
-						"buffer_size": 8582,
+						"buffer_size": 7750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								7750,
+								7750
 							]
 						],
 						"settings":
@@ -373,7 +380,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4843.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -383,7 +390,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -409,7 +416,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.573298429319,
 			1.0
 		],
 		"rows":
@@ -419,6 +426,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 130.0
+	},
 	"replace":
 	{
 		"height": 72.0
@@ -444,6 +455,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 196.0,
 	"status_bar_visible": true
 }
