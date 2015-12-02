@@ -139,7 +139,7 @@ if (bio.skills.length > 0) {
 }
 
 //format jobs and append to div with id workExperience
-function displayWork() {
+work.display = function() {
 	for (professions in work.jobs) {
 		if (work.jobs.hasOwnProperty(professions)) {
 			$("#workExperience").append(HTMLworkStart);
@@ -159,7 +159,7 @@ function displayWork() {
 	}
 }
 
-displayWork();
+work.display();
 
 //format projects and append to div with id projects
 projects.display = function() {
