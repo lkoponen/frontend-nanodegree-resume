@@ -82,19 +82,19 @@ var education = {
 var projects = {
 	"projects" : [
 		{
-			"title" : "Portfolio Web Pages",
+			"title" : "Cheree Honey Model Page",
 			"dates" : "October 2015",
-			"description" : "Web pages which display HTML experience. Also showcase use of Bootstrap framework.",
+			"description" : "Web site which displays HTML and CSS experience. Also showcases use of Bootstrap framework, including using modals.",
 			"images" : [
-				"http:lorempixel.com/400/200/animals", "http:lorempixel.com/400/205/animals"
+				"images/model_site_1.jpg", "images/model_site_2.jpg"
 			]
 		},
 				{
-			"title" : "Portfolio Web Pages",
+			"title" : "Portfolio Web Page",
 			"dates" : "October 2015",
-			"description" : "Web pages which display HTML experience. Also showcase use of Bootstrap framework.",
+			"description" : "Simple web site which displays HTML and CSS experience. Also showcases use of Bootstrap framework.",
 			"images" : [
-				"http:lorempixel.com/400/200/animals", "http:lorempixel.com/400/205/animals"
+				"images/portfolio_site_1.jpg"
 			]
 		}
 	]
