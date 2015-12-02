@@ -16,7 +16,7 @@ var bio = {
 	"skills" : [
 		"JavaScript", "HTML", "CSS", "jQuery"
 	]
-}
+};
 
 var work = {
 	"jobs" : [
@@ -42,7 +42,7 @@ var work = {
 			"description" : "Transfer website contents from Volusion CMS to Shopify CMS. Update and maintain website. Design layout and organization of new site. Copywriting."
 		}
 	]
-}
+};
 
 var education = {
 	"schools" : [
@@ -77,7 +77,7 @@ var education = {
 			"url" : "http://www.lynda.com/Web-Design-tutorials/Web-Design-Fundamentals/177837-2.html"
 		}
 	]
-}
+};
 
 var projects = {
 	"projects" : [
@@ -98,7 +98,7 @@ var projects = {
 			]
 		}
 	]
-}
+};
 
 bio.display = function() {
 	//format name and role in header and prepend to header
@@ -132,19 +132,21 @@ bio.display = function() {
 	//format skills and append to div with id skills
 	if (bio.skills.length > 0) {
 		$("#header").append(HTMLskillsStart);
-
-		for (skills in bio.skills) {
-			var formattedSkill = HTMLskills.replace("%data%", bio.skills[skills]);
-			$("#skills").append(formattedSkill);
+		
+		for (var skills in bio.skills) {
+    	if (bio.skills.hasOwnProperty(skills)) {
+				var formattedSkill = HTMLskills.replace("%data%", bio.skills[skills]);
+				$("#skills").append(formattedSkill);
+      }
 		}
 	}
-}
+};
 
 bio.display();
 
 //format jobs and append to div with id workExperience
 work.display = function() {
-	for (professions in work.jobs) {
+	for (var professions in work.jobs) {
 		if (work.jobs.hasOwnProperty(professions)) {
 			$("#workExperience").append(HTMLworkStart);
 
@@ -161,13 +163,13 @@ work.display = function() {
 			$(".work-entry:last").append(formattedEmployer + formattedWorkTitle + formattedWorkDates + formattedWorkLocation + formattedWorkDescription);
 		}
 	}
-}
+};
 
 work.display();
 
 //format projects and append to div with id projects
 projects.display = function() {
-	for (newProject in projects.projects) {
+	for (var newProject in projects.projects) {
 		if (projects.projects.hasOwnProperty(newProject)) {
 			$("#projects").append(HTMLprojectStart);
 
@@ -190,14 +192,14 @@ projects.display = function() {
 			});
 		}
 	}
-}
+};
 
 projects.display();
 
 //format and append education to div with id education
 education.display = function() {
 	//format and append schools to div with id education
-	for (newSchool in education.schools) {
+	for (var newSchool in education.schools) {
 		if (education.schools.hasOwnProperty(newSchool)) {
 			$("#education").append(HTMLschoolStart);
 
@@ -224,7 +226,7 @@ education.display = function() {
 	$("#education").append('<h3 id="onlineCourse">Online Courses</h3>');
 
 	//format and append online courses
-	for (newOnlineCourse in education.onlineCourse) {
+	for (var newOnlineCourse in education.onlineCourse) {
 		if (education.onlineCourse.hasOwnProperty(newOnlineCourse)) {
 			$("#education").append(HTMLonlineClasses);
 
@@ -242,7 +244,7 @@ education.display = function() {
 			$(".online-entry:last").append(formattedOnlineUrl);
 		}
 	}
-}
+};
 
 education.display();
 

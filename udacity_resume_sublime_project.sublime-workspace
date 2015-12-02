@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"welc",
+				"welcomeMessage"
+			],
+			[
+				"location",
+				"location"
+			],
+			[
+				"github",
+				"github"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
 				"fun",
 				"funThoughts"
 			],
@@ -51,7 +67,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5017,
+				"buffer_size": 5672,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +75,15 @@
 			"file": "js/resumeBuilder.js",
 			"settings":
 			{
-				"buffer_size": 7286,
+				"buffer_size": 9748,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2659,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +91,7 @@
 			"file": "js/helper.js",
 			"settings":
 			{
-				"buffer_size": 7750,
+				"buffer_size": 8601,
 				"line_ending": "Windows"
 			}
 		}
@@ -139,7 +163,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 96.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -150,6 +174,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"00AA4F",
+			"gray",
+			"orange-text",
+			"f5ae23",
 			"JavaScript",
 			"this",
 			"Also",
@@ -274,7 +302,7 @@
 			"203",
 			"po entr"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
@@ -298,15 +326,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5017,
+						"buffer_size": 5672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2788,
-								2788
+								929,
+								929
 							]
 						],
 						"settings":
@@ -316,7 +344,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2118.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -326,15 +354,15 @@
 					"file": "js/resumeBuilder.js",
 					"settings":
 					{
-						"buffer_size": 7286,
+						"buffer_size": 9748,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1903,
-								1903
+								1895,
+								1895
 							]
 						],
 						"settings":
@@ -344,7 +372,35 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 951.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 2659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								791,
+								791
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -356,19 +412,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "js/helper.js",
 					"settings":
 					{
-						"buffer_size": 7750,
+						"buffer_size": 8601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7750,
-								7750
+								849,
+								849
 							]
 						],
 						"settings":
@@ -380,7 +436,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4843.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -455,6 +511,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 196.0,
+	"side_bar_width": 157.0,
 	"status_bar_visible": true
 }
