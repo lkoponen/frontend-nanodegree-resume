@@ -245,22 +245,25 @@ education.display();
 //append "Where have I worked" map to div with id mapDiv
 $("#mapDiv").append(googleMap);
 
-//Hidden Internationalization Button
-// function inName(name) {
-// 	//create name array by removing trailing and leading white space and splitting on the space
-// 	name = name.trim().split(" ");
+
+/*
+//Hidden Internationalization Button 
+function inName(name) {
+	//create name array by removing trailing and leading white space and splitting on the space
+	name = name.trim().split(" ");
 	
-// 	//print name to console to check for accuracy
-// 	console.log(name);
+	//print name to console to check for accuracy
+	console.log(name);
 
-// 	//manipulate second item in array to uppercase
-// 	name[1] = name[1].toUpperCase();
+	//manipulate second item in array to uppercase
+	name[1] = name[1].toUpperCase();
 
-// 	//ensure that first item in array will always start with a capital letter and end with lowercase letters
-// 	name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
+	//ensure that first item in array will always start with a capital letter and end with lowercase letters
+	name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
 
-// 	//return the two items in the array joined by a space
-// 	return name[0] + " " + name[1];
-// }
+	//return the two items in the array joined by a space
+	return name[0] + " " + name[1];
+}
 
-// $("#main").append(internationalizeButton);
+$("#main").append(internationalizeButton);
+*/
