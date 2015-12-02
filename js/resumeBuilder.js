@@ -14,7 +14,7 @@ var bio = {
 	"pictureUrl" : "images/profile.jpg",
 	"welcomeMessage" : "Hello! Welcome to my resume!",
 	"skills" : [
-		"JavaScript", "HTML", "CSS", "Quality Assurance", "Microsoft Excel"
+		"JavaScript", "HTML", "CSS", "jQuery"
 	]
 }
 
