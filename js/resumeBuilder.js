@@ -1,31 +1,7 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
-
- /*Code exercises from beginning of course*/
-// var awesomeThoughts = "I am Lili and I am awesome!";
-// var funThoughts = awesomeThoughts.replace("awesome", "fun");
-// console.log(awesomeThoughts);
-// console.log(funThoughts);
-
-// $("#main").append(funThoughts);
-
-// var name = "Lili Koponen";
-// var role = "Front-end Web Developer";
-
-// var formattedName = HTMLheaderName.replace("%data%", name);
-// var formattedRole = HTMLheaderRole.replace("%data%", role);
-
-// $("#header").prepend(formattedRole);
-// $("#header").prepend(formattedName);
-
-// var skills = 
-// 	["awesomeness", "programming", "teaching", "JS"];
-
-// // $("#main").append(skills);
-// $("#main").append(skills[0]);
-
-
+//Create objects which contain data for page
 var bio = {
 	"name" : "Lili Koponen",
 	"role" : "Front-end Web Developer",
@@ -38,7 +14,7 @@ var bio = {
 	"pictureUrl" : "images/profile.jpg",
 	"welcomeMessage" : "Hello! Welcome to my resume!",
 	"skills" : [
-		"JavaScript", "HTML", "CSS", "QA"
+		"JavaScript", "HTML", "CSS", "Quality Assurance", "Microsoft Excel"
 	]
 }
 
@@ -124,16 +100,6 @@ var projects = {
 	]
 }
 
-
-// $("#main").append(bio.name);
-// $("#main").append(bio.role);
-// $("#main").append(bio.contacts);
-// $("#main").append(bio.pictureUrl);
-// $("#main").append(bio.welcomeMessage);
-// $("#main").append(bio.skills);
-// $("#main").append(work["currentPosition"]);
-// $("#main").append(education.name);
-
 //format name and role in header and prepend to header
 var formattedHeaderRole = HTMLheaderRole.replace("%data%", bio.role);
 $("#header").prepend(formattedHeaderRole);
@@ -166,17 +132,13 @@ $("#header").append(formattedWelcomeMessage);
 if (bio.skills.length > 0) {
 	$("#header").append(HTMLskillsStart);
 
-	var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-	$("#skills").append(formattedSkill);
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-	$("#skills").append(formattedSkill);
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-	$("#skills").append(formattedSkill);
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-	$("#skills").append(formattedSkill);
+	for (skills in bio.skills) {
+		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skills]);
+		$("#skills").append(formattedSkill);
+	}
 }
 
-
+//format jobs and append to div with id workExperience
 function displayWork() {
 	for (professions in work.jobs) {
 		if (work.jobs.hasOwnProperty(professions)) {
@@ -199,6 +161,7 @@ function displayWork() {
 
 displayWork();
 
+//format projects and append to div with id projects
 projects.display = function() {
 	for (newProject in projects.projects) {
 		if (projects.projects.hasOwnProperty(newProject)) {
@@ -227,6 +190,9 @@ projects.display = function() {
 
 projects.display();
 
+//format and append schools attended to div with id education
+
+//append "Where have I worked" map to div with id mapDiv
 $("#mapDiv").append(googleMap);
 
 //Hidden Internationalization Button
