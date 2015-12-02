@@ -20,7 +20,8 @@ h6 {
 
 .education-entry,
 .work-entry,
-.project-entry {
+.project-entry,
+.online-entry {
   padding: 0 5%;
 }
 
@@ -67,8 +68,8 @@ h5 {
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: left;
-}
+/*  float: left;
+*/}
 
 .location-text {
   font-style: italic;

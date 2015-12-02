@@ -190,7 +190,57 @@ projects.display = function() {
 
 projects.display();
 
-//format and append schools attended to div with id education
+//format and append education to div with id education
+education.display = function() {
+	//format and append schools to div with id education
+	for (newSchool in education.schools) {
+		if (education.schools.hasOwnProperty(newSchool)) {
+			$("#education").append(HTMLschoolStart);
+
+			//format and append school name and degree
+			var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[newSchool].name);
+			var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[newSchool].degree);
+			$(".education-entry:last").append(formattedSchoolName + formattedSchoolDegree);	
+
+			//format and append school dates
+			var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[newSchool].dates);
+			$(".education-entry:last").append(formattedSchoolDates);	
+
+			//format and append school location
+			var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schools[newSchool].location);
+			$(".education-entry:last").append(formattedSchoolLocation);	
+
+			//format and append school major
+			var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", education.schools[newSchool].major);
+			$(".education-entry:last").append(formattedSchoolMajor);
+		}
+	}
+
+	//add heading for Online Courses
+	$("#education").append('<h3 id="onlineCourse">Online Courses</h3>');
+
+	//format and append online courses
+	for (newOnlineCourse in education.onlineCourse) {
+		if (education.onlineCourse.hasOwnProperty(newOnlineCourse)) {
+			$("#education").append(HTMLonlineClasses);
+
+			//format and append online course name and degree
+			var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourse[newOnlineCourse].title);
+			var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourse[newOnlineCourse].school);
+			$(".online-entry:last").append(formattedOnlineTitle + formattedOnlineSchool);
+
+			//format and append online course dates
+			var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourse[newOnlineCourse].dates);
+			$(".online-entry:last").append(formattedOnlineDates);
+
+			//format and append online course url
+			var formattedOnlineUrl = HTMLonlineURL.replace("%data%", education.onlineCourse[newOnlineCourse].url);
+			$(".online-entry:last").append(formattedOnlineUrl);
+		}
+	}
+}
+
+education.display();
 
 //append "Where have I worked" map to div with id mapDiv
 $("#mapDiv").append(googleMap);
