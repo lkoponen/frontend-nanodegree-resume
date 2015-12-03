@@ -75,7 +75,7 @@
 			"file": "js/resumeBuilder.js",
 			"settings":
 			{
-				"buffer_size": 9748,
+				"buffer_size": 9688,
 				"line_ending": "Windows"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "js/helper.js",
 			"settings":
 			{
-				"buffer_size": 8601,
+				"buffer_size": 8749,
 				"line_ending": "Windows"
 			}
 		}
@@ -174,6 +174,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-sm",
 			"00AA4F",
 			"gray",
 			"orange-text",
@@ -333,8 +334,8 @@
 						"selection":
 						[
 							[
-								929,
-								929
+								1373,
+								1373
 							]
 						],
 						"settings":
@@ -344,7 +345,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 1380.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -354,15 +355,15 @@
 					"file": "js/resumeBuilder.js",
 					"settings":
 					{
-						"buffer_size": 9748,
+						"buffer_size": 9688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1895,
-								1895
+								1558,
+								1558
 							]
 						],
 						"settings":
@@ -372,7 +373,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 420.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -389,8 +390,8 @@
 						"selection":
 						[
 							[
-								791,
-								791
+								2620,
+								2620
 							]
 						],
 						"settings":
@@ -400,7 +401,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1260.0,
+						"translation.y": 3840.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -416,15 +417,15 @@
 					"file": "js/helper.js",
 					"settings":
 					{
-						"buffer_size": 8601,
+						"buffer_size": 8749,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								849,
-								849
+								8749,
+								8749
 							]
 						],
 						"settings":
@@ -436,7 +437,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

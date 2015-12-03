@@ -14,7 +14,7 @@ var bio = {
 	"pictureUrl": "images/profile.jpg",
 	"welcomeMessage": "Hello! Welcome to my resume!",
 	"skills": [
-		"JavaScript", "HTML", "CSS", "jQuery"
+		"JavaScript", "HTML", "CSS", "jQuery", "Bootstrap"
 	]
 };
 
@@ -98,15 +98,19 @@ bio.display = function() {
 	//format contact information and append to header
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 	$("#topContacts").append(formattedMobile);
+	$("#footerContacts").append(formattedMobile);
 
 	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 	$("#topContacts").append(formattedEmail);
+	$("#footerContacts").append(formattedEmail);
 
 	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 	$("#topContacts").append(formattedGithub);
+	$("#footerContacts").append(formattedGithub);
 
 	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 	$("#topContacts").append(formattedLocation);
+	$("#footerContacts").append(formattedLocation);
 
 	//format and append bio picture to header
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.pictureUrl);
