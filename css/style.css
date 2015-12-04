@@ -31,7 +31,7 @@ body {
 
 h1 {
   font-size: 40px;
-  color: #B2CB7A;
+  color: #b2cb7a;
   line-height: 48px;
   display: inline;
 }
@@ -42,7 +42,7 @@ h2 {
   color: #999;
   line-height: 29px;
   padding: 10px;
-  color: #FFC47F;
+  color: #ffc47f;
 }
 
 h3 {
@@ -92,7 +92,7 @@ p {
 }
 
 a {
-  color: #B2CB7A;
+  color: #b2cb7a;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -101,22 +101,22 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #FFC47F;
+  color: #ffc47f;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #B2CB7A;
+  color: #b2cb7a;
 /*  display: none;
 */}
 
 .footer {
-  background-color: #FFC47F;
+  background-color: #ffc47f;
   color: #4a4a4a;
 }
 
 .razzle-dazzle-text {
-  color: #B2CB7A;
+  color: #b2cb7a;
 }
 
 .white-text {
@@ -125,9 +125,9 @@ a {
 }
 
 .banding-1 {
-  background-color: #F2EEEA;
+  background-color: #f2eeea;
   padding-bottom: 10px;
-  clear:both;
+  clear: both;
 }
 
 .end-page {
@@ -221,7 +221,7 @@ span {
 }
 
 #onlineCourse {
-  color: #86A09D;
+  color: #86a09d;
 }
 
 #skills {
