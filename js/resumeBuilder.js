@@ -19,38 +19,24 @@ var bio = {
 		var formattedHeaderRole = HTMLheaderNameAndRole.replace('%role%', bio.role).replace('%data%', bio.name);
 		$('#header').prepend(formattedHeaderRole);
 
-		// var formattedHeaderName = HTMLheaderName.replace('%data%', bio.name);
-		// $('#header').prepend(formattedHeaderName);
-
-		//format contact information and append to header
+		//create formatted contact information
 		var formattedMobile = HTMLmobile.replace('%data%', bio.contacts.mobile);
-		$('#topContacts').append(formattedMobile);
-		$('#footerContacts').append(formattedMobile);
-
 		var formattedEmail = HTMLemail.replace('%data%', bio.contacts.email);
-		$('#topContacts').append(formattedEmail);
-		$('#footerContacts').append(formattedEmail);
-
 		var formattedGithub = HTMLgithub.replace('%data%', bio.contacts.github);
-		$('#topContacts').append(formattedGithub);
-		$('#footerContacts').append(formattedGithub);
-
 		var formattedTwitter = HTMLtwitter.replace('%data%', bio.contacts.twitter);
-		$('#topContacts').append(formattedTwitter);
-		$('#footerContacts').append(formattedTwitter);
-
 		var formattedLocation = HTMLlocation.replace('%data%', bio.contacts.location);
-		$('#topContacts').append(formattedLocation);
-		$('#footerContacts').append(formattedLocation);
 
-		//format and append bio picture to header
+		//append contacts to footer and top
+		$('#footerContacts').append(formattedMobile + formattedEmail + formattedGithub + formattedTwitter + formattedLocation);
+		$('#topContacts').append(formattedMobile + formattedEmail + formattedGithub + formattedTwitter + formattedLocation);
+
+		//create formatted bio picture and welcome message
 		var formattedBioPic = HTMLbioPic.replace('%data%', bio.biopic);
-		$('#header').append(formattedBioPic);
-
-		//format and append welcome message to header
 		var formattedWelcomeMessage = HTMLWelcomeMsg.replace('%data%', bio.welcomeMessage);
-		$('#header').append(formattedWelcomeMessage);
 
+		//append welcome message and picture to header
+		$('#header').append(formattedBioPic + formattedWelcomeMessage);
+		
 		//format skills and append to div with id skills
 		if (bio.skills.length > 0) {
 			$('#header').append(HTMLskillsStart);
