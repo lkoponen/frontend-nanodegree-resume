@@ -42,18 +42,6 @@ var HTMLonlineURL = '<a href="#">%data%</a><br>';
 var internationalizeButton = '<button>INTERNATIONALIZE</button>';
 var googleMap = '<div id="map"></div>';
 
-
-/*
-It hooks up code to the Internationalize button I'm appending.
-*/
-$(document).ready(function() {
-  $('button').click(function() {
-    var iName = inName($("#name").text()) || function() {};
-    $('#name').html(iName);
-  });
-});
-
-
 //The next few lines about clicks are for the Collecting Click Locations quiz in Lesson 2.
 clickLocations = [];
 
