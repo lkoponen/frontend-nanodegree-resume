@@ -9,9 +9,10 @@ var bio = {
 		"mobile": "916-284-6352",
 		"email": "ljkoponen@gmail.com",
 		"github": "https://github.com/lkoponen",
+		"twitter": "https://twitter.com/lkoponen",
 		"location": "Los Angeles, CA"
 	},
-	"pictureUrl": "images/profile.jpg",
+	"biopic": "images/profile.jpg",
 	"welcomeMessage": "Hello! Welcome to my resume!",
 	"skills": [
 		"JavaScript", "HTML", "CSS", "jQuery", "Bootstrap"
@@ -113,7 +114,7 @@ bio.display = function() {
 	$("#footerContacts").append(formattedLocation);
 
 	//format and append bio picture to header
-	var formattedBioPic = HTMLbioPic.replace("%data%", bio.pictureUrl);
+	var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
 	$("#header").append(formattedBioPic);
 
 	//format and append welcome message to header

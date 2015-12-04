@@ -75,7 +75,7 @@
 			"file": "js/resumeBuilder.js",
 			"settings":
 			{
-				"buffer_size": 9688,
+				"buffer_size": 9877,
 				"line_ending": "Windows"
 			}
 		},
@@ -319,7 +319,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -334,8 +334,8 @@
 						"selection":
 						[
 							[
-								1373,
-								1373
+								2985,
+								2985
 							]
 						],
 						"settings":
@@ -345,7 +345,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1380.0,
+						"translation.y": 1320.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -355,15 +355,15 @@
 					"file": "js/resumeBuilder.js",
 					"settings":
 					{
-						"buffer_size": 9688,
+						"buffer_size": 9877,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1558,
-								1558
+								4013,
+								4013
 							]
 						],
 						"settings":
@@ -373,7 +373,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 1960.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -390,8 +390,8 @@
 						"selection":
 						[
 							[
-								2620,
-								2620
+								1451,
+								1451
 							]
 						],
 						"settings":
@@ -401,7 +401,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3840.0,
+						"translation.y": 2160.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -424,8 +424,8 @@
 						"selection":
 						[
 							[
-								8749,
-								8749
+								1888,
+								1888
 							]
 						],
 						"settings":
@@ -437,7 +437,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
