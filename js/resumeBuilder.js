@@ -109,28 +109,28 @@ var work = {
 var education = {
 	'schools': [{
 		'name': 'UCLA',
-		'dates': '2005-2010',
+		'dates': '2010',
 		'degree': 'BA',
-		'major': 'Political Science',
+		'majors': ['Political Science'],
 		'location': 'Los Angeles, CA',
 		'url': 'http://www.ucla.edu/'
 	}, {
 		'name': 'Udacity',
 		'dates': '2015',
 		'degree': 'Nanodegree',
-		'major': 'Front-end Development',
+		'majors': ['Front-end Development'],
 		'location': 'Los Angeles, CA',
 		'url': 'https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001'
 	}],
 	'onlineCourse': [{
 		'title': 'Outlook 2013: Efficient Email Management',
 		'school': 'lynda.com',
-		'dates': 'April 27, 2015',
+		'date': '2015',
 		'url': 'http://www.lynda.com/Outlook-tutorials/Outlook-2013-Efficient-Email-Management/179051-2.html'
 	}, {
 		'title': 'Web Design Fundamentals (2010)',
 		'school': 'lynda.com',
-		'dates': 'July 27, 2013',
+		'date': '2013',
 		'url': 'http://www.lynda.com/Web-Design-tutorials/Web-Design-Fundamentals/177837-2.html'
 	}],
 	'display': function() {
@@ -153,7 +153,7 @@ var education = {
 				$('.education-entry:last').append(formattedSchoolLocation);
 
 				//format and append school major
-				var formattedSchoolMajor = HTMLschoolMajor.replace('%data%', education.schools[newSchool].major);
+				var formattedSchoolMajor = HTMLschoolMajor.replace('%data%', education.schools[newSchool].majors[0]);
 				$('.education-entry:last').append(formattedSchoolMajor);
 			}
 		}
@@ -172,7 +172,7 @@ var education = {
 				$('.online-entry:last').append(formattedOnlineTitle + formattedOnlineSchool);
 
 				//format and append online course dates
-				var formattedOnlineDates = HTMLonlineDates.replace('%data%', education.onlineCourse[newOnlineCourse].dates);
+				var formattedOnlineDates = HTMLonlineDates.replace('%data%', education.onlineCourse[newOnlineCourse].date);
 				$('.online-entry:last').append(formattedOnlineDates);
 
 				//format and append online course url
