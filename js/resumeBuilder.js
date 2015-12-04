@@ -73,7 +73,7 @@ var work = {
 		'description': 'Transfer website contents from Volusion CMS to Shopify CMS. Update and maintain website. Design layout and organization of new site. Copywriting.'
 	}],
 	'display': function() {
-		for (var professions in work.jobs) {
+		for (var professions = 0; professions < work.jobs.length; professions++) {
 			if (work.jobs.hasOwnProperty(professions)) {
 				$('#workExperience').append(HTMLworkStart);
 
@@ -122,7 +122,7 @@ var education = {
 	}],
 	'display': function() {
 		//format and append schools to div with id education
-		for (var newSchool in education.schools) {
+		for (var newSchool = 0; newSchool < education.schools.length; newSchool++) {
 			if (education.schools.hasOwnProperty(newSchool)) {
 				$('#education').append(HTMLschoolStart);
 
@@ -149,7 +149,7 @@ var education = {
 		$('#education').append('<h3 id="onlineCourse">Online Courses</h3>');
 
 		//format and append online courses
-		for (var newOnlineCourse in education.onlineCourse) {
+		for (var newOnlineCourse = 0; newOnlineCourse < education.onlineCourse.length; newOnlineCourse++) {
 			if (education.onlineCourse.hasOwnProperty(newOnlineCourse)) {
 				$('#education').append(HTMLonlineClasses);
 
@@ -187,7 +187,7 @@ var projects = {
 		]
 	}],
 	'display': function() {
-		for (var newProject in projects.projects) {
+		for (var newProject = 0; newProject < projects.projects.length; newProject++) {
 			if (projects.projects.hasOwnProperty(newProject)) {
 				$('#projects').append(HTMLprojectStart);
 
