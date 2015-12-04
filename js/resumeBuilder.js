@@ -36,14 +36,15 @@ var bio = {
 
 		//append welcome message and picture to header
 		$('#header').append(formattedBioPic + formattedWelcomeMessage);
-		
+
 		//format skills and append to div with id skills
 		if (bio.skills.length > 0) {
 			$('#header').append(HTMLskillsStart);
 
-			for (var skills in bio.skills) {
-				if (bio.skills.hasOwnProperty(skills)) {
-					var formattedSkill = HTMLskills.replace('%data%', bio.skills[skills]);
+			//iterate over bio.skills array to created formatted skills and append to #skills element
+			for (var i = 0; i < bio.skills.length; i++) {
+				if (bio.skills.hasOwnProperty(i)) {
+					var formattedSkill = HTMLskills.replace('%data%', bio.skills[i]);
 					$('#skills').append(formattedSkill);
 				}
 			}
